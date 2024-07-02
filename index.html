@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rockpaper-scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Rock - Paper - Scissor</h1>
+        <div id="gestures">
+           <img src="./Images/rock-emoji.png" alt="rock" class="rock gestures">
+           <img src="./Images/paper-emoji.png" alt="paper" class="paper gestures">
+           <img src="./Images/scissor-emoji.png" alt="scissor" class="scissor gestures">
+        </div>
+        <div id="result">
+            <div id="result-Gestures"></div>
+            <h2 id="result-text"></h2>
+        </div>
+        <div id="advance-features">
+            <div id="final-results">
+                <span class="wins">Wins: <span class="win-count">0</span>,</span>
+                <span class="losses">Losses: <span class="loss-count">0</span>,</span>
+                <span class="ties">Ties: <span class="tie-count">0</span></span>
+            </div>
+            <div id="btns">
+                <button class="reset">Reset Score</button>
+                <button class="auto-play">AutoPlay</button> 
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
